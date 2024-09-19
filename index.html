@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10">
+                    <div class="logo py-3">
+                        <img src="./assets/images/logo.png" alt="Logo">
+                    </div>
+                </div>
+                <div class="col-md-2 justify-content-end need-help d-flex py-3 ">
+                    <p class="px-1">Need helps?</p> <i class="fas fa-headphones"></i>
+                    <!-- Toggle button for mobile view -->
+                    <button style="color: white;" class="navbar-toggler ms-auto navbar navbar-expand-sm " type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+    <!-- navbar section -->
+    <nav class="nav-header   navbar navbar-expand-sm ">
+        <div class=" container">
+            <!-- <button style="color: white;" class="navbar-toggler ms-auto navbar navbar-expand-sm " type="button"
+                        data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <i class="fas fa-bars"></i>
+                    </button> -->
+            <div class=" collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav  ">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Packages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Articles</a>
+                    </li>
+                </ul>
+
+
+                <!-- Right side content -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="languageDropdown" role="button"
+                            data-bs-toggle="dropdown">
+                            FR
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-end">
+                            <li><a class="dropdown-item" href="#">EN</a></li>
+                            <li><a class="dropdown-item" href="#">FR</a></li>
+                        </ul>
+                    </li>
+
+                    <!-- Profile icon -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="fas fa-user"></i> Profile
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- main image section -->
+    <div class="hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-4  text text-sm-top">
+                    <h1>ELITE TRAVEL EXPLORE</h1>
+                    <button type="button" class="btn ">Contact Now <i class="fas fa-arrow-forward"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Blur Section -->
+    <div class=" blur-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 ">
+                    <h2>16+</h2>
+                    <p>Our company has over 16 years of experience in the United Arab Emirates.</p>
+                </div>
+                <div class="col-md-4  ">
+                    <h2>35,000+</h2>
+                    <p>We have completed more than 35,000 stays in the United Arab Emirates.</p>
+                </div>
+                <div class="col-md-4 ">
+                    <h2>700+</h2>
+                    <p>We work with more than 700 hoteliers.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- experienced-services section -->
+    <div class="container py-5">
+        <div class="row">
+            <h1 class=" container  experienced-services ">Experience Exceptional Service with Godubai</h1>
+            <!-- First Card -->
+            <div class="col-md-6 py-5">
+                <div class="card ">
+                    <img src="./assets/images/experienced-services1.jpg" class="card-img" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title">Bypass Airport Hassles</h5>
+                        <p class="card-text">Forget about long queues and waiting times. With Godubai, you'll bypass
+                            airport hassles and enjoy a smooth, stress-free travel experience.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- Second Card -->
+            <div class="col-md-6 py-5">
+                <div class="card ">
+                    <img src="./assets/images/experienced-services2.jpg" class="card-img" alt="Card image">
+                    <div class="card-body">
+                        <h5 class="card-title">More Than Just a Flight</h5>
+                        <p class="card-text">Our services extend beyond just booking your flight. We offer
+                            comprehensive airport assistance, ensuring a seamless journey from arrival to departure.
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Explorer packages section -->
+    <div class="explorer py-5">
+        <h1 class=" text-center  py-5">Unveil Hidden Gems with Our Curated Explorer Packages!</h1>
+        <div class="container">
+            <div class="explerer-slide">
+                <div class="col-md-4">
+                    <div class="card mx-2">
+                        <img src="./assets/images/explorer1.png" class="card-img-top" alt="Package 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Dubai & Abu Dhabi DUO</h5>
+                            <p class="card-text">11 Days 10 Nights</p>
+                            <h6 class="text-primary">From $3,499.00</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mx-2">
+                        <img src="./assets/images/explorer2.png" class="card-img-top" alt="Package 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Urban And Beach DUO</h5>
+                            <p class="card-text">11 Days 10 Nights</p>
+                            <h6 class="text-primary">From $3,499.00</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mx-2">
+                        <img src="./assets/images/ecplorer3.png" class="card-img-top" alt="Package 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Dubai + Abu Dhabi + Desert Trio</h5>
+                            <p class="card-text">11 Days 10 Nights</p>
+                            <h6 class="text-primary">From $3,499.00</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mx-2">
+                        <img src="./assets/images/ecplorer3.png" class="card-img-top" alt="Package 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Dubai + Abu Dhabi + Desert Trio</h5>
+                            <p class="card-text">11 Days 10 Nights</p>
+                            <h6 class="text-primary">From $3,499.00</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mx-2">
+                        <img src="./assets/images/explorer1.png" class="card-img-top" alt="Package 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Dubai & Abu Dhabi DUO</h5>
+                            <p class="card-text">11 Days 10 Nights</p>
+                            <h6 class="text-primary">From $3,499.00</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- events section -->
+    <div class="events-section">
+        <div class="container slider">
+            <div class="row">
+                <div class=" events-text text-center py-4">
+                    <h1>Events & Conventions</h1>
+                    <p>We are one of the top agencies for events and corporate functions in Dubai. </p>
+                </div>
+
+                <div class="card-slide">
+                    <div class="col-md-6 py-5 ">
+                        <div class="card  mx-2">
+                            <img src="./assets/images/events1.png" class="card-img" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">More Than Just a Flight</h5>
+                                <div class="justify-content-between d-flex align-items-center">
+                                    <p class="card-text ">Our services extend </p>
+                                    <a href="#"> <button type="button" class="btn btn-outline-primary"
+                                            data-bs-toggle="button">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </button></a>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 py-5">
+                        <div class="card   mx-2">
+                            <img src="./assets/images/events2.jpg" class="card-img" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">More Than Just a Flight</h5>
+                                <div class="justify-content-between d-flex align-items-center">
+                                    <p class="card-text ">Our services extend </p>
+                                    <a href="#"><button type="button" class="btn btn-outline-primary"
+                                            data-bs-toggle="button">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </button></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 py-5">
+                        <div class="card ">
+                            <img src="./assets/images/events2.jpg" class="card-img" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">More Than Just a Flight</h5>
+                                <div class="justify-content-between d-flex align-items-center">
+                                    <p class="card-text ">Our services extend </p>
+                                    <a href="#"><button type="button" class="btn btn-outline-primary"
+                                            data-bs-toggle="button">
+                                            <i class="fas fa-arrow-right"></i>
+                                        </button></a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center  pb-5">
+                    <a href="#" class="btn btn-all-packages">All Events <i style="color: white;"
+                            class="fas fa-arrow-right"></i> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About Us  -->
+    <div class="about-us-main py-5 ">
+        <div class="container  p-5">
+            <div class="row">
+                <div class="col-md-6  about-us">
+                    <h1>About us</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum aliquam velit recusandae
+                        beatae, minus delectus sint debitis qui in esse nihil temporibus, dolores saepe doloremque
+                        quas tempora? Quos, tempore ab.</p>
+                    <button type="button" class="btn btn-all-packages mt-5">More About us <i style="color: white;"
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="col-md-6 about-us">
+                    <img src="./assets/images/about-us.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- testiminial section  / people ask anythung -->
+    <div class="container py-5">
+        <div class="text-center py-3">
+            <h2>See What Others Are Saying</h2>
+        </div>
+        <div class="testimonial-slide">
+            <div class="d-flex justify-content-center align-items-center py-5">
+                <div class="card p-3 px-2" style="max-width: 500px;">
+                    <div class="d-flex">
+                        <img src="./assets/images/user-img.png" class="rounded-circle me-3" alt="User Image"
+                            style="width: 80px;">
+                        <div class="py-5">
+                            <h5>Albert Flores</h5>
+                            <p class="text-muted">UX Designer at Pixelean</p>
+                        </div>
+                    </div>
+                    <p class="py-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet venenatis
+                        tellus
+                        consequat finibus. Nunc viverra diam vitae elit porta dignissim. Mauris id leo
+                        porta,
+                        fringilla tortor id, vestibulum ex. Aenean sed arcu non neque pharetra placerat eu
+                        id neque.
+                        Cras et cursus ex. Donec tincidunt pulvinar aliquam. Donec dignissim ligula ac nisl
+                        auctor,
+                        at facilisis velit tempor.
+                    </p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-center align-items-center py-5">
+                <div class="card p-3 mx-2" style="max-width: 500px;">
+                    <div class="d-flex">
+                        <img src="./assets/images/user-img.png" class="rounded-circle me-3" alt="User Image"
+                            style="width: 60px;">
+                        <div class="py-5">
+                            <h5>Albert Flores</h5>
+                            <p class="text-muted">UX Designer at Pixelean</p>
+                        </div>
+                    </div>
+                    <p class="py-3">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean aliquet venenatis
+                        tellus
+                        consequat finibus. Nunc viverra diam vitae elit porta dignissim. Mauris id leo
+                        porta,
+                        fringilla tortor id, vestibulum ex. Aenean sed arcu non neque pharetra placerat eu
+                        id neque.
+                        Cras et cursus ex. Donec tincidunt pulvinar aliquam. Donec dignissim ligula ac nisl
+                        auctor,
+                        at facilisis velit tempor.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Articles section -->
+    <div class=" articles py-5">
+        <div class="container ">
+            <div class="row">
+                <div class="justify-content-between d-flex py-5">
+                    <h1>Articles</h1>
+                    <button type="button" class="btn btn-all-packages">All articles <i style="color: white;"
+                            class="fas fa-arrow-right"></i></button>
+                </div>
+                <div class="articles-slide">
+                    <div class="col-md-4 px-2 py-5 pb-5">
+                        <div class="card">
+                            <img src="./assets/images/events1.png" class="card-img" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">More Than Just a Flight</h5>
+                                <div class="justify-content-between d-flex align-items-center">
+                                    <p class="card-text ">Our services extend </p>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="button">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-5 px-2 ">
+                        <div class="card">
+                            <img src="./assets/images/events2.jpg" class="card-img" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">More Than Just a Flight</h5>
+                                <div class="justify-content-between d-flex align-items-center">
+                                    <p class="card-text ">Our services extend </p>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="button">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-5 px-2">
+                        <div class="card">
+                            <img src="./assets/images/events2.jpg" class="card-img" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">More Than Just a Flight</h5>
+                                <div class="justify-content-between d-flex align-items-center">
+                                    <p class="card-text ">Our services extend </p>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="button">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-5 px-2">
+                        <div class="card">
+                            <img src="./assets/images/events2.jpg" class="card-img" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">More Than Just a Flight</h5>
+                                <div class="justify-content-between d-flex align-items-center">
+                                    <p class="card-text ">Our services extend </p>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="button">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 py-5 px-2">
+                        <div class="card">
+                            <img src="./assets/images/events2.jpg" class="card-img" alt="Card image">
+                            <div class="card-body">
+                                <h5 class="card-title">More Than Just a Flight</h5>
+                                <div class="justify-content-between d-flex align-items-center">
+                                    <p class="card-text ">Our services extend </p>
+                                    <button type="button" class="btn btn-outline-primary" data-bs-toggle="button">
+                                        <i class="fas fa-arrow-right"></i>
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact us section -->
+    <div class=" contact-us ">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-md-6  p-5">
+                    <h1>Contact us</h1>
+                    <label for=""> Phone</label><br>
+                    <div class="input-group pb-3">
+                        <span class="input-group-text">
+                            <i class="fas fa-phone"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="+92-7859-7">
+                    </div>
+                    <label for=""> E Mail</label><br>
+                    <div class="input-group pb-3">
+                        <span class="input-group-text">
+                            <i class="fas fa-envelope"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="style@gmail.com">
+                    </div>
+                    <label for=""> Address</label><br>
+                    <div class="input-group pb-3">
+                        <span class="input-group-text">
+                            <i class="fas fa-location"></i>
+                        </span>
+                        <input type="text" class="form-control" placeholder="Ashiyana Shoping Center">
+                    </div>
+                </div>
+                <div class="col-md-6  p-5">
+                    <form action="">
+                        <div class="form">
+                            <h1 style="font-size: 24px; font-weight: 500;">Request for information or reservation
+                            </h1>
+                            <label for=""> Full Name</label><br>
+                            <input type="text" class="form-control" placeholder="Enter your full name">
+                            <div class="d-flex">
+                                <div>
+                                    <label for=""> Email</label><br>
+                                    <input type="email" class="form-control" placeholder="Enter email">
+                                </div>
+                                <div>
+                                    <label for=""> Phone</label><br>
+                                    <input type="text" class="form-control" placeholder="Enter phone number">
+                                </div>
+                            </div>
+                            <label for=""> Messages</label><br>
+                            <textarea class="form-control" id="message" rows="4"
+                                placeholder="Type your message here..."></textarea>
+
+                            <button type="submit" class="btn btn-all-packages mt-5">submit</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- footter section -->
+    <footer class="footer">
+        <div class="container  py-1">
+            <div class="row">
+                <h1>Subscribe to Newsletter</h1>
+                <div class="d-flex ">
+                    <input type="email" class="footer-input-text" placeholder="E mail address">
+                    <button type="button" class="btn btn-all-packages">Subscribe</button>
+                </div>
+
+                <div class=" logo-nav d-flex flex-column flex-md-row align-items-center justify-content-center mb-2">
+                    <img src="./assets/images/logo.png" alt="footer logo">
+
+                    <nav class="navbar navbar-expand-lg w-100 w-md-auto">
+                        <ul class="navbar-nav d-flex flex-row   flex-md-row w-100 justify-content-center">
+                            <li class="nav-item ">
+                                <a class="nav-link  " href="#">Packages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Events</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Article</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <div
+                    class="d-flex flex-column flex-md-row justify-content-between text-center text-md-start copyright mt-2">
+                    <p>© 2023 Godubai | All rights reserved</p>
+                    <p>Privacy Policy</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"
+        integrity="sha512-eP8DK17a+MOcKHXC5Yrqzd8WI5WKh6F1TIk5QZ/8Lbv+8ssblcz7oGC8ZmQ/ZSAPa7ZmsCU4e/hcovqR8jfJqA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+
+<!-- for events section -->
+<script>
+    $('.card-slide') .slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        slidesToShow: 2,
+        adaptiveHeight: true,
+        responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        dots: true,
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+      }
+    }
+  ]
+    });
+</script>
+
+<!-- for explorer section -->
+<script>
+    $('.explerer-slide').slick({
+        dots: true,
+        infinite: false,
+        speed: 300,
+        slidesToShow: 1,
+        centerMode: false,
+        variableWidth: true,
+        responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        dots: true,
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+      }
+    }
+  ]
+    });
+</script>
+
+
+<!-- ask question section -->
+<script>
+    $('.testimonial-slide').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 1500,
+    });
+</script>
+
+ <script>
+    $('.articles-slide').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  autoplay: false,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        dots: true,
+        slidesToShow: 2,
+        slidesToScroll: 1
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        dots: true,
+      }
+    }
+  ]
+});
+ </script>
+
+</html>

@@ -1,0 +1,289 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-family: "Poppins", sans-serif;
+}
+nav header ,p, .btn-all-packages{
+    font-family: 'DM Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Poppins", sans-serif;
+}
+.header {
+    background: #010A20;
+  
+   position: relative;
+    top: 0px;
+    z-index: 100;
+    max-width: 1920px;
+}
+.need-help{
+    color: white;
+    
+}
+
+header img {
+    max-width: 175px;
+
+    max-height: 42px;
+
+}
+
+.nav-header{
+    background-color: #0a1931;
+   
+    max-width: 1920px;
+   
+}
+nav{
+    font-size: 18px;
+}
+ .nav-link{
+    color: white;
+ }
+ .hero-section {
+    background-image: url('../images/hero.png'); 
+    background-size: cover;
+    background-position:center;
+  max-width: 1920px;
+   max-height: 1022px;
+   height: 1022px;
+   
+    display: flex; 
+     align-items: center;
+    justify-content: center;
+    color: white; 
+    text-align:center; 
+   
+  }
+ 
+.text .btn{
+    background:  #ED1B36;
+    border-radius: 73px;
+    border: 0px;
+    color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+.text h1{
+    font-size: 72px;
+    font-weight: 700;
+    color: #060606;
+}
+
+.blur-section{
+    padding: 20px;
+    position: relative;
+    color: white;
+    border-radius: 10px;  
+    margin-top: -140px; 
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    backdrop-filter: blur(2px);
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+.experienced-services{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    max-Width:832px;
+    max-Height:112px;
+    display: flex;
+    text-align: center;  
+    justify-content: center;
+}
+.card{
+    border: 0px;
+    background: #F3F8FF;
+}
+.card-img{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    max-Width:550px;
+
+    max-Height:270px;
+border: none;
+border-radius:16px;
+
+}
+
+  .explorer{
+    background: #F3F8FF;
+  }
+  .explorer h1{
+    padding: 25px;
+    text-align: center;
+  }
+/* ask anything section */
+
+ .carousel-item {
+    padding: 30px 0;
+}
+.carousel-item img {
+    width: 100%;
+    max-height: 200px;
+    border-radius: 10px;
+}
+.carousel-item .card {
+    border: none;
+}
+.carousel-item .card-body {
+    text-align: center;
+}
+.carousel-indicators {
+    position: relative;
+    margin-top: 20px;
+}
+.carousel-indicators [data-bs-target] {
+    max-width: 10px;
+    max-height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+}
+.btn-all-packages {
+    background-color: #ff4c4c;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+    border: none;
+  
+}
+.explorer .card img{
+   width: 300px;
+    height: 300px;
+
+}
+ .events-text h1{
+   
+font-size: 40px;
+font-weight: 700;
+}
+.events-text {
+    max-Width:832px;
+max-Height:112px;   
+}
+.btn{
+    border: 1px solid black;  
+}
+.btn i{
+    color: black;
+}
+.about-us img{
+    max-Width:500px;
+Height:250px;
+border-radius: 24px;
+}
+.about-us-main{
+    background: #F3F8FF;
+}
+.articles{
+    background: #010A20  90%;
+    height: auto;
+    width: auto;
+   
+}
+.articles h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+}
+.articles img{
+    max-Width:355px;
+    
+    max-Height:200px;
+    
+}
+.contact-us{
+    background: #F3F8FF;
+}
+.form{
+    background: white;
+   border-radius: 16px;
+    padding: 30px;
+}
+footer{
+    background: #010A20;
+}
+footer h1{
+    padding-top: 25px;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+
+}
+footer .d-flex{
+    
+    padding: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.footer-input-text{
+    background: transparent;
+    border-radius: 16px;
+    border: 1px solid  black;
+}
+footer img{
+    max-Width:250px;
+
+max-Height:60px;
+
+}
+footer .logo-nav{
+    border-bottom: 1px solid white;
+}
+.copyright p{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+@media(min-width:992px){
+    .navbar-toggler{
+        display: none;
+    }
+}
+@media(min-width:576px){
+    .navbar-toggler{
+        display: none;
+    }
+    
+}
+@media(max-width:576px){
+    nav{
+        display: none; 
+    }
+    footer .nav-link{
+        padding-left: 20px;
+    }
+    .experienced-services, .text h1, .explorer h1, .events-text h1, .footer h1  {
+        font-size: 24px;
+        
+    }
+    .events-text p{
+        font-size: 12px;
+    }
+    .card-slide{
+        margin: 0px;
+        padding: 0px;
+    }
+    .hero-section {
+      
+        background-position:start;
+        display: flex; 
+         align-items: start;
+        justify-content: center;
+        color: white; 
+        text-align:center; 
+        padding:80px;
+        padding-top: 180px;
+       
+      }
+      .blur-section2{
+        margin-top: -330px;
+      }
+     
+      
+   
+}
+
